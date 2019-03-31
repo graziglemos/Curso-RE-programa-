@@ -1,0 +1,120 @@
+/*comentário em css*/
+
+/* ETILOS GERAIS */
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BANNER */
+
+.banner {
+    background: url(../img/banner-bg.png);
+    background-size: cover;
+    height: 560px;
+    color: white;
+    text-align: center;
+}
+
+.banner__conteudo {
+   padding: 260px; 
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner_subtitulo {
+    font-size: 23px;
+}
+
+/* Propriedade botão da do CV */
+
+.botao {
+    color: #7E459B;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.banner__link {
+    color: #7E459B;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+/* SOBRE MIM */
+
+.container-margens {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.sobre__titulo{
+    font-size: 40px;
+    color: #C4C4C4;
+}
+
+.sobre__descricao-principal {
+    font-size: 22px;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descricao, .sobre__habilidades{
+width: 50%;
+line-height: 40px;
+margin-left: 40px;
+}
+
+.sobre__habilidades h3{
+    font-size: 20px;
+}
+
+.sobre__cv-link{
+    color:#7E459B;
+    border: 1px solid #7E459B;
+}
+
+.footer {
+    text-align: center;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais__link {
+    background-color: #7E459B;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 20px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+
+.footer__copyright-texto {
+    color: #C4C4C4;
+    font-weight: light;
+
+}
